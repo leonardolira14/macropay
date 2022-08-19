@@ -1,0 +1,30 @@
+<div class="modaldetail" *ngIf="showmodal">
+  <div class="container-fluid mt-4">
+    <div class="row">
+      <div class="col-8 card m-auto">
+        <div class="card-header d-flex justify-content-between">
+          <h5>{{marca}}</h5>
+          <button (click)="showmodal=false" type="button" class="btn-close" aria-label="Close"></button>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <img src="{{imagen}}" class="card-img-top" alt="{{marca}}">
+          </div>
+          <div class="col-6">
+            <h5 class="card-title">{{marca}}</h5>
+            <h6 class="card-title">{{modelo}}</h6>
+            <p class="card-text">{{precio | currency}}</p>
+            <p class="text-justify">
+              Compacto y muy eficiente con una memoria de 32 MB + 32 MB expandible a 8 GB con Micro-SD, pantalla de 1.77" a color, cámara de 0.08 Mpxl, lámpara
+            </p>
+            <p class="text-justify">
+              Es un smartphone Android con pantalla HD+ de 5.7 pulgadas, procesador Snapdragon 430 con 2GB de RAM y 16GB de almacenamiento o 3GB
+            </p>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</div>

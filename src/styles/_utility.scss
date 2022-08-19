@@ -1,0 +1,67 @@
+
+@import './variables';
+/* VIEW */
+
+.u-hide {
+  display: none;
+}
+
+.u-hover-show {
+  display: none;
+
+  :hover > & {
+    display: block;
+  }
+}
+
+/* ALIGN */
+
+.u-text-align-center {
+  text-align: center !important;
+}
+
+.u-text-align-left {
+  text-align: left !important;
+}
+
+.u-text-align-right {
+  text-align: right !important;
+}
+
+.u-float-left {
+  float: left !important;
+}
+
+.u-float-right {
+  float: right !important;
+}
+
+/* BORDER */
+
+.u-no-border {
+  border: 0 !important;
+
+  &:before {
+    border: 0 !important;
+  }
+}
+
+.u-border-simple-rounded {
+  border: solid 1px $alight-gray;
+  border-radius: 4px;
+  &:hover {
+    background-color: $blue;
+    color: $blue
+  }
+}
+
+/* COLOR */
+
+.u-green-font {
+  color: $succes;
+}
+
+.u-red-font {
+  color: $danger;
+}
+

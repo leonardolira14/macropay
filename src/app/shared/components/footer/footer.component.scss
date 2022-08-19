@@ -1,0 +1,54 @@
+
+@import '../../../../styles/variables';
+
+.footer{
+  background-color: $azulprimary;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  &-row{
+    &-item{
+       & address{
+        color: #fff;
+        & a{
+          text-decoration: none;
+          color:#fff
+        }
+       }
+
+      &__map-content{
+        padding-right: 2%;
+      }
+      &-list{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        &-item{
+          &-link{
+            color: $blanco;
+            &-img{
+              color: $blanco;
+              display: block;
+              width: 20px;
+              height: 20px;
+              fill: #FF4745;
+            }
+          }
+
+        }
+      }
+      &-map{
+        overflow:hidden;
+        padding-bottom:30%;
+        position:relative;
+        height:0;
+        & iframe{
+          left:0;
+          top:0;
+          height:100%;
+          width:100%;
+          position:absolute;
+        }
+      }
+    }
+  }
+}

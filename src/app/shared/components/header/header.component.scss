@@ -1,0 +1,68 @@
+@import '../../../../styles/variables';
+.menu{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  background-color: $azulprimary ;
+  color:#fff;
+  &-content{
+    height: 100%;
+    padding: 0px 50px;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+  }
+  &-logo{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & img{
+      object-fit: cover;
+      width: 50%
+    }
+
+  }
+  &-items{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+    &-link{
+      color:$blanco;
+      text-decoration: none;
+      &:hover{
+        color:$naranja;
+      }
+    }
+  }
+  &-items-card{
+    height: 100%;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    justify-content:end;
+    &-btn-primary{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    &-link{
+      color:$blanco;
+      text-decoration: none;
+      &-items{
+        display: flex;
+        justify-content: center;
+        & .badge{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 100%;
+        }
+      }
+    }
+
+  }
+}

@@ -1,0 +1,48 @@
+{
+ "data":[
+    {
+      "Marca":"Mortorola",
+      "Model":"G71",
+      "Precio":"5999.00",
+      "Imagen":"https://cdn.shopify.com/s/files/1/0877/3052/products/Motorola-Moto-G71-5g-Verde-5_1024x1024@2x.jpg?v=1645822100",
+      "Stock":true
+    },
+    {
+      "Marca":"Mortorola",
+      "Model":"G Stylus 5G",
+      "Precio":"7999.00",
+      "Imagen":"https://m.media-amazon.com/images/I/61ACu5xcNpL._AC_SY355_.jpg",
+      "Stock":true
+    },
+    {
+      "Marca":"Mortorola",
+      "Model":"G20",
+      "Precio":"4999.00",
+      "Imagen":"https://elektra.vtexassets.com/arquivos/ids/3379101/31045288-d5.jpg?v=637850399829900000",
+      "Stock":true
+    },
+    {
+      "Marca":"Samsung",
+      "Model":"Note 10+",
+      "Precio":"3999.00",
+      "Imagen":"https://i.linio.com/p/1aab4f9b768de3c1638906ed6b6b780a-product.jpg",
+      "Stock":true
+    }
+    ,
+    {
+      "Marca":"Samsung",
+      "Model":"S10",
+      "Precio":"12699.00",
+      "Imagen":"http://celularymas.com.mx/3218-large_default/celular-samsung-galaxy-s10-negro-128-gb-celularymas-celulares-y-tablets.jpg",
+      "Stock":true
+    },
+    {
+      "Marca":"Samsung",
+      "Model":"Z Flip3 256gb",
+      "Precio":"24099.00",
+      "Imagen":"https://cdn1.coppel.com/images/catalog/pm/2606053-1.jpg",
+      "Stock":true
+    }
+  ]
+
+}
